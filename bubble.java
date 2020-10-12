@@ -1,6 +1,9 @@
 import java.util.*;
+
 public class bubble {
+    
     public static void main(String args[]){
+        
         Scanner sc=new Scanner(System.in);
         int n,i,j;
         System.out.println("Enter length of your array: ");
@@ -24,10 +27,13 @@ public class bubble {
                 }
             }
         }
+        
         System.out.print("\nSorted  Array is: "+"[");
+        
         for(i=0;i<n;i++){
             System.out.print(a[i] + " ");
         }
+        
         System.out.print("]");
     }
 }
